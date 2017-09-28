@@ -1,0 +1,102 @@
+.container {
+  background: #aeaeae;
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+.start-page,
+.question-page,
+.answer-feedback-page,
+.final-feedback-page {
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  background: #e0e0e0;
+  border-radius: 50px;
+  padding: 10px 50px 50px 50px;
+  border: 1px solid gray;
+  box-shadow:  10px 15px 5px grey;
+  position: relative;
+}
+
+.start-page h1,
+div h1  {
+  font-family: Raboto;
+  background: #484848;
+  font-size: 60px;
+  text-align: center;
+  color: white;
+  padding: 2px 0px;
+  border-radius: 50px;
+}
+/*
+#tracker, #currentScore {
+  color: dark grey;
+  font-size: 18px;
+}
+
+#tracker {
+  position: relative;
+  top: 0;
+}
+
+#currentScore {
+  position: absolute;
+  left: 590px;
+  top: 615px;
+}*/
+
+.start-page button,
+.question-page button,
+.answer-feedback-page button,
+.final-feedback-page button {
+  border-radius: 5px;
+  width: 100px;
+  color: white;
+  background: #15CD72;
+  transition: all 0.4s;
+}
+
+.start-page button:focus,
+.start-page button:hover,
+.question-page button:focus,
+.question-page button:hover,
+.answer-feedback-page button:focus,
+.answer-feedback-page button:hover,
+.final-feedback-page button:focus
+.final-feedback-page button:hover,
+.restart-game:focus,
+.restart-game:hover {
+  outline: 0;
+  cursor: pointer;
+  background-color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

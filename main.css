@@ -1,0 +1,53 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+}
+
+body {
+	background-color: #e0e0e0;
+}
+
+main {
+	max-width: 960px;
+	margin: 0 auto;
+	text-decoration: white;
+}
+
+label {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+input[type=radio] {
+    position: relative;
+    vertical-align: middle;
+    height: 1.5rem;
+    bottom: 2px;
+    *bottom: 0;
+    margin-right: 7px;
+}
+
+p {
+	max-width: 100%;
+}
+
+.container {
+	padding: 0 60px;
+	padding-top: 90px;
+}
+
+.user-was-correct::before {
+	font-size: 50px;
+	color: green;
+	content: "Coooorreeectt!";
+}
+
+/*.user-was-correct::after {
+	content: ")";
+}*/
+
+.user-was-incorrect {
+	font-size: 50px;
+	color: red;
+}

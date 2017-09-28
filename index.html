@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" name="description" content="A quiz app in Thinkful's FEWD DEV-001 course.">
+
+  <title>Prince | Quiz App</title>
+
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="grid.css">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <main>
+
+      <div class="start-page" style="display: none;">
+        <h1>~ | ~ | Quiz App | ~ | ~</h1>
+        <p>This app presents a historical survey of problem-solving through the ages. Five questions will be asked which will test your problem-solving skills. Best of luck! And see you at the finish line! </p>
+        <p><em>Are you up for the challenge? If so, click the Start button below.</em></p>
+        <form name="game-start">
+          <button type="submit">Start</button>
+        </form>
+      </div>
+
+      <div class="question-page" style="display: none;">
+        <h3><span class="question-count"></span> : <span class="question-text"></span></h3>
+        <form name="current-question">
+          <ol type="A" class="choices">
+          </ol>
+          <button type="submit">Submit</button>
+          <button class="restart-game">Restart</button>
+        </form>
+      </div>
+
+      <div class="answer-feedback-page" style="display: none;">
+        <div class="feedback-container">
+          <div class="feedback-header"></div>
+          <p class="feedback-text"></p>
+          <button class="see-next"></button>
+        </div>
+      </div>
+
+      <div class="final-feedback-page" style="display: none;">
+        <h1>Results</h1>
+        <p class="results-text"></p>
+        <button class="restart-game">Restart</button>
+      </div>
+    </main>
+
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.1.0.slim.min.js"   integrity="sha256-cRpWjoSOw5KcyIOaZNo4i6fZ9tKPhYYb6i5T9RSVJG8="   crossorigin="anonymous"></script>
+  <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
