@@ -14,14 +14,14 @@
 
   <div class="container">
 
-    <main>
+    <main role="main">
 
       <div class="start-page" style="display: none;">
         <h1>~ | ~ | Quiz App | ~ | ~</h1>
         <p>This app presents a historical survey of problem-solving through the ages. Five questions will be asked which will test your problem-solving skills. Best of luck! And see you at the finish line! </p>
         <p><em>Are you up for the challenge? If so, click the Start button below.</em></p>
         <form name="game-start">
-          <button type="submit">Start</button>
+          <button role="button" type="submit">Start</button>
         </form>
       </div>
 
@@ -30,7 +30,7 @@
         <form name="current-question">
           <ol type="A" class="choices">
           </ol>
-          <button type="submit">Submit</button>
+          <button role="button" type="submit">Submit</button>
           <button class="restart-game">Restart</button>
         </form>
       </div>
@@ -39,14 +39,14 @@
         <div class="feedback-container">
           <div class="feedback-header"></div>
           <p class="feedback-text"></p>
-          <button class="see-next"></button>
+          <button role="button" class="see-next"></button>
         </div>
       </div>
 
       <div class="final-feedback-page" style="display: none;">
         <h1>Results</h1>
         <p class="results-text"></p>
-        <button class="restart-game">Restart</button>
+        <button role="button" class="restart-game">Restart</button>
       </div>
     </main>
 
