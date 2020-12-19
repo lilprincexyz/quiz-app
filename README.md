@@ -12,7 +12,7 @@ Why is this app useful? Well, it's not. It's just fun! It was something that was
 
 
 ## Live Site
-You can access the app at https://iampno.github.io/quiz-app/
+You can access the app at https://prince-codes.github.io/quiz-app/
 
 ## Technical
 The front-end is built using HTML5, and CSS3 and JavaScript with no back-end.
